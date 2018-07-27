@@ -51,7 +51,7 @@ itemGroup.inventoryGenerators=战利品
 
 commands.rc.noEntityInfo=The sender doesn't handle structure info!
 commands.rc.noSelection=The sender doesn't handle selections!
-commands.rc.large.warn=The selection is very big! This might take a while.
+commands.rc.large.warn=选中区域较大，请耐心等待。
 commands.rc.large.error=The selection is too big! (And if it weren't, this command would probably take a few days to run!)
 
 commands.structure.notGeneric=Structure '%s' is not generic!
@@ -64,16 +64,15 @@ commands.strucGen.noStructure=No structure registered by the name of '%s'
 commands.strucImport.noStructure=No structure registered by the name of '%s'
 
 commands.selectSet.get=Selection: %s
-commands.selectSet.size=Size: %s (%s blocks)
+commands.selectSet.size=大小: %s (%s 方块)
 
 commands.selectModify.noSelection=Player does not have a complete selection
 commands.selectModify.invalidMetadata=Metadata must be entered like '0,1,5', but was '%s'
 
-commands.strucReload.success=Reloaded all %s files.
+commands.strucReload.success=%s 文件已重载完毕。
 
-commands.selectCopy.success=Copied (%s) to clipboard
-
-commands.strucPaste.noClipboard=You have to copy an area first!
+commands.selectCopy.success=已将(%s)复制至剪贴板
+commands.strucPaste.noClipboard=你需要先复制一块区域!
 
 commands.rcpreview.invalid=Invalid preview type
 commands.rcpreview.success=Preview type set to '%s'
@@ -83,20 +82,20 @@ commands.rc.queuedOp=Operation in preview - %s or %s
 commands.rcconfirm.run=Run the operation
 commands.rccancel.run=Cancel the operation
 
-commands.rcreopen.run=Re-Open GUI
-commands.rcreopen.nogui=No GUI to reopen!
-commands.rcreopen.fail=Failed to reopen GUI!
-commands.rc.didhide=Hidden GUI - %s?
+commands.rcreopen.run=重新打开GUI
+commands.rcreopen.nogui=没有可以重新打开的GUI!
+commands.rcreopen.fail=重新打开GUI失败!
+commands.rc.didhide=隐藏GUI - %s?
 
 commands.rcimportschematic.missing=The file '%s' was not found in %s
 commands.rcimportschematic.format=The file '%s' has an unsupported format (%s)
 
 commands.strucExportSchematic.success=Exported schematic to %s
 
-commands.biomedict.get=Biome Types for %s: %s
-commands.biomedict.get.number=Lookup (%s biomes)
+commands.biomedict.get=为%s设置的生物群系: %s
+commands.biomedict.get.number=正在寻找(%s biomes)
 commands.biomedict.list=Biomes of Type %s: %s
-commands.biomedict.list.number=Lookup (%s types)
+commands.biomedict.list.number=正在寻找(%s types)
 
 commands.dimensiondict.get=Dimension Types for %d: %s
 commands.dimensiondict.get.number=Lookup (%s dimensions)
@@ -159,8 +158,8 @@ inventoryGen.custom=自定义战利品表
 inventoryGen.create=创建新战利品表
 inventoryGen.none=无战利品表
 inventoryGen.mod=模组战利品表
-inventoryGen.active=%sActive%s
-inventoryGen.inactive=%sInactive%s
+inventoryGen.active=%s启用%s
+inventoryGen.inactive=%s禁用%s
 
 reccomplex.server.status=<Recurrent Complex> Loaded %s active structures: %s %s %s %s
 
